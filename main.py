@@ -37,6 +37,6 @@ tweets = api.search_by_friends(count=20, keywords=keywords, keywords_specific=ke
 
 db = DataBase()
 db.save_twitters(tweets)
-db.close_connection()
+
 
 exit()

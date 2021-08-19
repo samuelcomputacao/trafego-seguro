@@ -15,6 +15,22 @@ class DataBase:
         cur.close()
         return rs
 
+    def getEstados(self, coluns=["*"], where=[]):
+        where.append("1=1")
+        cur = self.connection.cursor()
+        cur.execute(f"SELECT {','.join(coluns)} FROM estado WHERE {' AND '.join(where)}")
+        rs = cur.fetchall()
+        cur.close()
+        return rs
+
+    def getMunicipios(self, coluns=["*"], where=[]):
+        where.append("1=1")
+        cur = self.connection.cursor()
+        cur.execute(f"SELECT {','.join(coluns)} FROM municipio WHERE {' AND '.join(where)}")
+        rs = cur.fetchall()
+        cur.close()
+        return rs
+
     def close_connection(self):
         self.connection.close()
 

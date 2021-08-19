@@ -55,7 +55,7 @@ class TweetAPI:
         text = self.__replace(text, "'", '')
         text = self.__replace(text, '|', '')
         text = self.__replace(text, "/|\\|]|[|=|+|_|)|(|&|%|$|#|!|{|}", '')
-        text = self.__replace(text, '\n|\t|\a|\b|\f|\r'.split("|"), ' ')
+        text = self.__replace(text, '\n|\t|\a|\b|\f|\r|-'.split("|"), ' ')
         return self.__remove_emogi(text)
 
     def __clean_tweet(self, text):
