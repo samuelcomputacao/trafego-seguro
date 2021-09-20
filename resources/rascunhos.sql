@@ -78,5 +78,15 @@ CREATE OR REPLACE FUNCTION calculate_km(km DECIMAL, uf VARCHAR(2), rodovia VARCH
 $$ LANGUAGE plpgsql;
 
 select calculate_km(120,'PB','104')
-
+select geom, depth
+FROM (SELECT geom, max(depth) depth
+		FROM (
+		  SELECT geom, ST_Distance((ST_DumpPoints(geom)).geom, ST_MakeLine(ST_StartPoint(geom), ST_EndPoint(geom))) AS depth
+			FROM rodovias_federais
+		  WHERE sg_uf = 'PB' 
+		  GROUP BY geom
+		) AS f
+		GROUP BY geom) AS max_depth
+where depth < 0.0008
+order by depth desc
 		

@@ -15,6 +15,14 @@ class DataBase:
         cur.close()
         return rs
 
+    def getDadosPRF(self, coluns=["*"], where=[]):
+        where.append("1=1")
+        cur = self.connection.cursor()
+        cur.execute(f"SELECT {','.join(coluns)} FROM dados_prf WHERE {' AND '.join(where)}")
+        rs = cur.fetchall()
+        cur.close()
+        return rs
+
     def getEstados(self, coluns=["*"], where=[]):
         where.append("1=1")
         cur = self.connection.cursor()
@@ -31,6 +39,14 @@ class DataBase:
         cur.close()
         return rs
 
+    def getRodoviasFederais(self, coluns=["*"], where=[]):
+        where.append("1=1")
+        cur = self.connection.cursor()
+        cur.execute(f"SELECT {','.join(coluns)} FROM rodovias_federais WHERE {' AND '.join(where)}")
+        rs = cur.fetchall()
+        cur.close()
+        return rs
+
     def close_connection(self):
         self.connection.close()
 
@@ -41,6 +57,34 @@ class DataBase:
                 sql = f"UPDATE twitter SET classificacao='{tw['classificacao']}' WHERE id='{tw['id']}'"
                 cur.execute(sql)
             self.connection.commit()
+
+    def salvarClassificacao(self, tweets = []):
+        if len(tweets) > 0:
+            sql = "CREATE TABLE IF NOT EXISTS dados_prf(" \
+                  "id VARCHAR(255)," \
+                  "ufbr VARCHAR(10)," \
+                  "km_trunc INTEGER," \
+                  "dia_semana_num INTEGER," \
+                  "turno_simples INTEGER," \
+                  "tipo_pista_simples INTEGER," \
+                  "categoria_sentido_via INTEGER," \
+                  "tracado_via_simples INTEGER," \
+                  "condicao_metereologica_simples INTEGER," \
+                  "tipo_acidente_simples INTEGER," \
+                  "classe INTEGER)"
+            cur = self.connection.cursor()
+            cur.execute(sql)
+            self.connection.commit()
+            for tw in tweets:
+                if not len(self.getDadosPRF(where=[f"id = '{tw['id']}'"])) > 0:
+                    sql = f"INSERT INTO dados_prf (id,ufbr,km_trunc,dia_semana_num,turno_simples,tipo_pista_simples,categoria_sentido_via,tracado_via_simples," \
+                          f"condicao_metereologica_simples,tipo_acidente_simples,classe)" \
+                          f" VALUES ('{tw['id']}','{tw['ufbr']}',{tw['km_trunc']},{tw['dia_semana_num']},{tw['turno_simples']}," \
+                          f"{tw['tipo_pista_simples']},{tw['categoria_sentido_via']},{tw['tracado_via_simples']}," \
+                          f"{tw['condicao_metereologica_simples']},{tw['tipo_acidente_simples']},{tw['classe']})"
+                    cur.execute(sql)
+            self.connection.commit()
+
 
     def save_twitters(self, tweets):
         print('Salvando Twitters')

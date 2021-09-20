@@ -1,25 +1,11 @@
 import re
 import tweepy
-from datetime import datetime
-import pytz
-from tzlocal import get_localzone
 from tweepy.error import TweepError
 import os
 
+from util.date_util import get_date_timezone, get_datetime
+
 os.environ['TZ'] = 'America/Sao_Paulo'
-
-
-def get_datetime():
-    now = datetime.now()
-    return datetime(year=now.year, month=now.month, day=now.day, hour=0, minute=0, second=0, microsecond=0)
-
-
-def get_date_timezone(date):
-    return datetime(year=date.year, month=date.month,
-                    day=date.day,
-                    hour=date.hour, minute=date.minute,
-                    second=date.second, tzinfo=pytz.utc).astimezone(get_localzone())
-
 
 class TweetAPI:
 
