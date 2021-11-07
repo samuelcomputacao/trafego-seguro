@@ -1,8 +1,11 @@
-from datetime import datetime
 
+from re import  findall
+from datetime import datetime
 from util.date_util import get_date_timezone, FORMAT_DATE
 from dataBase import DataBase
 from util.string_util import clean_text, incluso
+from functools import cmp_to_key
+
 
 dataBase = DataBase()
 
@@ -25,73 +28,48 @@ def extrai_parte_numerica(texto):
     for i in range(len(texto)):
         if eh_numero(texto[i]) and not flag:
             retorno += texto[i]
+        else: flag = True
     return retorno
 
 
 def extrai_km(tw):
-    texto = list(filter(lambda x: len(x) > 0, tw[2].split(" ")))
-    for i in range(len(texto)):
-        token = texto[i]
-        km = -1
-        if len(token) > 2:
-            if token[0:2] == 'km':
-                km = extrai_parte_numerica(token)
-                if len(km) == 0 and i + 1 < len(texto):
-                    km = extrai_parte_numerica(texto[i + 1])
-        elif len(token) == 2 and token == "km":
-            if i + 1 < len(texto):
-                km = extrai_parte_numerica(texto[i + 1])
-
-        if km != -1:
-            if len(km) > 0:
-                try:
-                    int(km)
-                    return km
-                except ValueError:
-                    print("Erro ao converter km!")
-                    pass
+    texto = tw[2]
+    tokens = findall(r'km[s]*[ ]*\d+', texto)
+    if len(tokens) > 0:
+        km = extrai_parte_numerica(tokens[0][::-1])[::-1]
+        if len(km) > 0:
+             try:
+                 int(km)
+                 return km
+             except ValueError:
+                 print("Erro ao converter km!")
+                 pass
     return None
 
 
 def extrai_br(tw, prefixo):
-    texto = list(filter(lambda x: len(x) > 0, tw[2].split(" ")))
-    for i in range(len(texto)):
-        token = texto[i]
-        br = -1
-        if len(token) > 2:
-            if token[0:2] == prefixo:
-                br = extrai_parte_numerica(token)
-                if len(br) == 0 and i + 1 < len(texto):
-                    br = extrai_parte_numerica(texto[i + 1])
-            elif token[-2:] == prefixo:
-                br = extrai_parte_numerica(texto[i + 1])
-        elif len(token) == 2 and token == prefixo:
-            if i + 1 < len(texto):
-                br = extrai_parte_numerica(texto[i + 1])
-
-        if br != -1:
-            if len(br) > 0:
-                try:
-                    int(br)
-                    return br
-                except ValueError:
-                    print("Erro ao converter br!")
-                    br = -1
-                    pass
+    texto = tw[2]
+    tokens = findall(r'%s[ ]*\d+' % prefixo, texto)
+    if len(tokens) > 0:
+        br = extrai_parte_numerica(tokens[0][::-1])[::-1]
+        if len(br) > 0:
+            try:
+                int(br)
+                return br
+            except ValueError:
+                print("Erro ao converter br!")
     return None
 
+def sizeComp(x,y):
+    return len(y) - len(x)
 
 def extrai_uf(tw):
-    if tw[0] == '1420377510227939331':
-        a = 1
     local = clean_text(tw[1])
     usuario = clean_text(tw[4])
     texto = tw[2]
 
-    estados = list(filter(lambda x: incluso(x, usuario), ESTADOS.keys())) + list(
-        filter(lambda x: incluso(x, local), ESTADOS.keys()))
-    muncs = list(filter(lambda x: incluso(x, local), MUNICIPIOS.keys()))
-    users = list(filter(lambda x: incluso(x, usuario), MUNICIPIOS.keys()))
+    estados = sorted(list(filter(lambda x: incluso(x, usuario), ESTADOS.keys())) + list(filter(lambda x: incluso(x, local), ESTADOS.keys())), key=cmp_to_key(sizeComp))
+    muncs = sorted(list(filter(lambda x: incluso(x, usuario), MUNICIPIOS.keys())) + list(filter(lambda x: incluso(x, local), MUNICIPIOS.keys())), key=cmp_to_key(sizeComp))
     ufs = list(filter(lambda x: incluso(x, usuario), ESTADOS.values())) + list(
         filter(lambda x: incluso(x, local), ESTADOS.values()))
 
@@ -101,17 +79,16 @@ def extrai_uf(tw):
         return ESTADOS[estados[0]]
     elif len(muncs) > 0:
         return MUNICIPIOS[muncs[0]]
-    elif len(users) > 0:
-        return MUNICIPIOS[users[0]]
 
-    tokens = local.split(" ") + usuario.split(" ") + texto.split(" ")
-    for token in tokens:
-        if token in ESTADOS.keys():
-            return ESTADOS[token]
-        elif token in ESTADOS.values():
-            return token
-        elif token in MUNICIPIOS.keys():
-            return MUNICIPIOS[token]
+    print(MUNICIPIOS['curitiba'])
+    # tokens = local.split(" ") + usuario.split(" ") + texto.split(" ")
+    # for token in tokens:
+    #     if token in ESTADOS.keys():
+    #         return ESTADOS[token]
+    #     elif token in ESTADOS.values():
+    #         return token
+    #     elif token in MUNICIPIOS.keys():
+    #         return MUNICIPIOS[token]
     return None
 
 
@@ -182,7 +159,7 @@ def extrai_tipo_pista_simples(ufbr, km):
         return None
 
 
-def extrai_informacoes(tw):
+def extrai_informacoes_full(tw):
     ufbr = extrai_ufbr(tw)
     km = extrai_km(tw)
     if ufbr is not None and km is not None:
@@ -199,6 +176,17 @@ def extrai_informacoes(tw):
                 "classe": extrai_classe(tw)}
     return None
 
+def extrai_informacoes_basic(tw):
+    if tw[0] == 1437426853896245251:
+       a = 1
+    ufbr = extrai_ufbr(tw)
+    km = extrai_km(tw)
+    if ufbr is not None and km is not None:
+        return {"km_trunc": km,
+                "id": tw[0],
+                "ufbr": ufbr}
+    return None
+
 
 def valida_tw(tw):
     for key in tw.keys():
@@ -206,13 +194,22 @@ def valida_tw(tw):
             return False
     return True
 
+def not_valida_tw(tw):
+    return not valida_tw(tw)
+
 
 tws = dataBase.getTwitters(coluns=["id", "local", "texto", "data", "usuario"], where=["classificacao='1'"])
+
 tws_estruturados = []
+tws_problemas = []
 for tw in tws:
-    informacoes = extrai_informacoes(tw)
+    informacoes = extrai_informacoes_basic(tw)
     if informacoes is not None:
         informacoes['id'] = tw[0]
         tws_estruturados += [informacoes]
-
-dataBase.salvarClassificacao(list(filter(valida_tw, tws_estruturados)))
+    else:
+        tws_problemas += [tw]
+        print(tw)
+lista = list(filter(valida_tw, tws_estruturados))
+print("%i e %i" %(len(tws_estruturados), len(tws_problemas)))
+#dataBase.salvarClassificacao(list(filter(valida_tw, tws_estruturados)))
