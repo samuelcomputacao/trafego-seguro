@@ -89,4 +89,26 @@ FROM (SELECT geom, max(depth) depth
 		GROUP BY geom) AS max_depth
 where depth < 0.0008
 order by depth desc
+
+
+---Multiline to line
+ALTER TABLE trecho_rodoviario
+ALTER COLUMN geom TYPE geometry(linestring,4326) USING ST_GeometryN(geom, 1);
+
+--routes
+select * from rodovias where the_geom is null
+delete from rodovias
+
+SELECT pgr_createTopology('rodovias', 1);
+SELECT pgr_nodeNetwork('rodovias', 1);
+SELECT pgr_createTopology('rodovias_noded', 1);
+UPDATE rodovias_noded SET distance = ST_Length(ST_Transform(the_geom, 4326)::geography) / 1000;
+
+insert into rodovias (id, the_geom)
+select gid, geom from trecho_rodoviario order by gid
+
+SELECT
+  *
+FROM pgr_dijkstra('SELECT id, source, target, the_geom FROM rodovias_noded', 1, 2)
+ORDER BY seq;
 		
