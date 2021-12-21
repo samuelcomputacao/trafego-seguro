@@ -7,6 +7,7 @@ from util.date_util import get_date_timezone, get_datetime
 
 os.environ['TZ'] = 'America/Sao_Paulo'
 
+
 class TweetAPI:
 
     def __init__(self, consumer_key, consumer_secret, access_token, access_token_secret):
@@ -80,6 +81,13 @@ class TweetAPI:
         else:
             return True
 
+    def search_by_id(self, id, lang='pt', tweet_mode='extended', result_type='mixed'):
+        tweets = []
+        result = self.conToken.search(q=' OR '.join(['a', 'e', 'i', 'o', 'u']), lang=lang, tweet_mode=tweet_mode, max_id=id, result_type=result_type, include_entities=False)
+        for tw in result:
+            tweets.append(tw)
+        return tweets
+
     def search_by_friends(self, count=10,
                           tweet_mode='extended',
                           keywords=[],
@@ -89,18 +97,19 @@ class TweetAPI:
         tweets = []
         if friends is not None:
             for friend in friends.iterrows():
-               try:
+                try:
                     result = self.conToken.user_timeline(
                         tweet_mode=tweet_mode,
                         screen_name=friend[1]['screen_name'],
                         count=count)
                     for tw in result:
                         if get_date_timezone(tw.created_at) >= get_date_timezone(date):
-                            if self.__contains_keyword(keywords_specific if friend[1]['specific'] else keywords, tw.full_text):
+                            if self.__contains_keyword(keywords_specific if friend[1]['specific'] else keywords,
+                                                       tw.full_text):
                                 tweets.append(tw)
                     print(f"Searching: {friend[1]['screen_name']} Sucess!!")
-               except TweepError:
-                   print(f"Searching: {friend[1]['screen_name']} Fail!!")
+                except TweepError:
+                    print(f"Searching: {friend[1]['screen_name']} Fail!!")
         return self.__prepare_tweets_list(tweets)
 
     def __prepare_tweets_list(self, tweets):
@@ -115,7 +124,8 @@ class TweetAPI:
                         'texto': tweet_text,
                         'data': get_date_timezone(tweet.created_at).strftime('%d/%m/%Y %H:%M:%S'),
                         'id': tweet.id,
-                        'links': re.findall(r'http?\S+',tweet.full_text)
+                        'texto_full': tweet.full_text,
+                        'links': re.findall(r'http?\S+', tweet.full_text)
                     }
                     tweets_data_list.append(tweets_data)
         return tweets_data_list
