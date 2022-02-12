@@ -1,31 +1,151 @@
 id;texto;classificacao
-'1448306767767744514';via mangue sentido boa viagem acidente no inicio da via mangue deixa transito complicado na area transitorecife;--
-'1448659835298332680';estradas mineiras tem 19 mortes em 226 acidentes no feriado prolongado  via ;--
-'1448356376909131780';caminhoneiro e preso apos denuncia de atropelamento na dutra em cacapava sp  via ;--
-'1448356304037289985';gravida de 27 anos morre em acidente em estrada vicinal de araraquara  via ;--
-'1448344493246255111';onibus da gontijo envolvido em acidente na br 262 tem 7 multas  via ;--
-'1448344425038598147';colisao entre onibus da gontijo e caminhao deixa 7 feridos na br 262 no es  via ;--
-'1448380759731998724';motorista e preso apos denuncia de atropelamento em cacapavasp  condutor estava alcoolizado e resistiu a voz de prisao dada pelos prfs  saiba mais em   emergencia ou denuncia   ligue 191 ;--
-'1448868854755647498';balanco do dia 14102021  009 acidentes  015 veiculos envolvidos  010 feridos  000 morto  375 pessoas fiscalizadas  288 veiculos fiscalizados  287 autos de infracao  007 veiculos recolhidos  001 veiculo recuperado  003 pessoas detidas;--
-'1448520777075208192';balanco do dia 13102021   009 acidentes  015 veiculos envolvidos  009 feridos  000 morto 304 pessoas fiscalizadas  257 veiculos fiscalizados  316 autos de infracao  030 veiculos recolhidos  001 veiculo recuperado  002 pessoas detidas;--
-'1449092446483320840';no momento nao ha ocorrencias relevantes nas rodovias federais sob circunscricao da prfes  dirijam com seguranca respeitem a sinalizacao e tenham todos uma boa viagem  em caso de acidentes liguem  prf 191  samu 192  cbmes 193  eco 101   0800 7701 101;--
-'1448320125476691978';13h00   boa tarde no momento nao ha ocorrencias relevantes nas rodovias federais sob circunscricao da prfes  dirijam com seguranca respeitem a sinalizacao e tenham todos uma boa viagem  em caso de acidentes liguem  prf 191  samu 192  cbmes 193  eco 101   0800 7701 101;--
-'1448304076622553094';durante os cinco dias de operacao foram registrados 33 acidentes e nenhuma vitima fatal comparando com o mesmo feriado em 2020 ocorreram 39 acidentes havendo uma reducao de 15 de acordo com dados oficiais a prf fiscalizou 1066 veiculos e 1348 pessoas ;--
-'1448243358799904778';0800   em fundaoes no km 228 da br 101 por volta das 06h15  ocorreu uma saida de pista seguida de colisao com uma arvore envolvendo uma carreta o condutor faleceu no local nao ha interdicao de pista;--
-'1448204209518784512';05h30   em conceicao do castelo km 121 da br 262 pista totalmente interditada devido acidente envolvendo onibus e caminhao equipes prf bombeiros e samu no local  ;--
-'1448198052821483524';04h45   em conceicao do castelo proximo ao km 121 da br 262 informacao de um acidente envolvendo um onibus e um caminhao pista interditada no sentido vitoria pedimos atencao aos condutores que trafegam pela localidade;--
-'1449052016098095104';acidente no km 4260 da br 282 em joacaba transito interrompido em ambos os sentidos;--
-'1449037053618966532';atencao   devido a  acidente  ocorrido no km 8 da  br  116 o  transito permanece  com  lentidao no  local no momento a pista  esta  liberada siga  com o maximo de atencao e mantenha  distancia do  veiculo a  sua frente;--
-'1448909901741400064';4h13    em joao monlevade no km 348 da br 381 pista totalmente interditada e sem previsao de liberacao em virtude de acidente com derramamento de oleo diesel equipes no local;--
-'1449023555161792515';homem morre atropelado por carro de prefeitura na paraiba  ;--
-'1448993810579697664';capotamento de caminhonete deixa duas pessoas mortas na paraiba  ;--
-'1449108917716463620';1724 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;--
-'1449018213849829406';1123 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;--
-'1448936686176534529';0600 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;--
-'1448861191938453562';0100 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;--
-'1449156288034885633';homem que levava crianca na garupa de uma bicicleta e atropelado na baixada fluminense rj veja o que foi noticia nesta sexta 15 no jornaldarecord  jr24h ;--
-'1449063810464157697';menino de 12 anos morre apos ser atropelado por carro em curitiba motorista fugiu  g1 g1pr ;--
-'1449015957779738628';acidente com caminhonete deixa dois mortos e seis feridos em rodovia no sertao da paraiba g1 g1paraiba   ;--
-'1449140529178898434';apesar do impacto motociclista esta bem  g1 bahia acidente;--
-'1448655094950498310';acidente com danos no veiculo mas ele ainda pode rodar o que fazer nesse caso sera que ainda poderei dirigir ate a oficina quer saber a resposta acesse o link  ;--
-'1448385551338512384';nos sistemas de transportes ferroviario e metroviario aguarde pelos trens atras da faixa amarela evite acidentes a sua seguranca tambem depende de voce ;--
+'1489153899898580996';atencao br116   km 909 candido sales com desvio de pista devido a acidente respeite a sinalizacao e mantenha sempre distancia de seguranca;1
+'1489722127213207554';este acidente grave que e no trecho de gravatai da freeway apos rs118 e em direcao ao lit  ;0
+'1489718351790178304';fluxo interrompido na freeway br290  acidente c obito no km 74 gerou interrupcao no fluxo sent capital li  ;1
+'1489686685575122944';atencao acidente entre 2 carros na av bernardino silveira amorim prox ao numero 921 bairro sarand  eptcpoa;0
+'1489683409479745540';atencao acidente entre carro e moto na av juca batista prox ao numero 4425   eptc no local  eptcpoa;0
+'1489675351902932994';atencao acidente entre 2 carros na av maranhao x av ceara bairro sao geraldo   agentes da eptc auxi  eptcpoa;0
+'1489674796677812226';atencao acidente entre 2 carros na r gen lima e silva x r olavo bilac bairro centro historico   ag  eptcpoa;0
+'1489618342893682690';para coibir excessos e prevenir acidentes agentes da eptc monitoram a circulacao de pedestres e veiculo  eptcpoa;0
+'1489614555336495104';acidente entre carro e caminhao na av protasio alves prox ao cruz c a av sen tarso dutra no  eptcpoa;0
+'1489610767317958656';atencao atropelamento por carro na r pinheiro machado prox ao numero 308 na esquina c a av indep  eptcpoa;0
+'1489589869340995587';acidente na br 381 em sabara mg mata motociclista  via ;0
+'1489633598126768131';carro e destruido apos acidente com onibus escolar    recordnews  ;0
+'1489618929832103938'; tempo segue bastante nublado em todo o corredor dom pedro  transito intenso do km 68 ao 65 da rodovia d pedro i em bom jesus dos perdes sentido jacarei devido a obras no pavimento  no restante do corredor dom pedro o trafego flui bem nao ha acidentes ;0
+'1489561413035118594'; tempo e bastante nublado no corredor dom pedro em alguns pontos garoa motoristas devem manter a atencao redobrada   transito flui bem nesta manha tambem nao ha registro de acidentes obras previstas para hoje podem ser suspensas por conta das condices climaticas ;0
+'1489340599203512325';em alguns pontos como este registro em bom jesus dos perdes o sol aparece neste fim de tarde porem em alguns pontos do corredor dom pedro ja volta a chover  km 145 da rodovia d pedro i no entroncamento com a anhanguera em campinas o transito e intenso sem acidentes ;0
+'1489256928991539215';transito tranquilo por todo o corredor dom pedro nao houve acidentes nesta manha e a chuva apresentou uma tregua   as obras voltaram km 6 da rodovia d pedro i em jacarei sentido campinas tem interdicao de faixa para obras no pavimento porem sem reflexos no transito ;0
+'1489226078870810627';  transito volta a fluir bem em todo o corredor dom pedro nesta manha de quinta feira nao ha acidentes e a chuva finalmente deu uma tregua sera que o sol vai aparecer   motorista a pista ainda pode estar molhada em alguns pontos atente se ;0
+'1489600639164370945'; evite ligar ou enviar mensagens de texto para alguem que voce sabe que esta dirigindo a distracao provocada pelo uso do telefone nao e um perigo somente para os motoristas  o comportamento desatento dos pedestres tambem gera acidentes;0
+'1489600135474655239'; mesmo os motoristas mais cautelosos podem se distrair com uma chamada ou mensagem de texto esse lapso de concentracao ativado por uma notificacao enquanto voce verifica o celular pode ser fatal e resultar em acidentes gravissimos;0
+'1489469352609030146';balanco do dia 03022022  006 acidentes  010 veiculos envolvidos  006 feridos  000 mortos  662 pessoas fiscalizadas  602 veiculos fiscalizados  177 testes de alcoolemia  608 autos de infracao  027 veiculos recolhidos 002 pessoas detidas;0
+'1489093463824121857';balanco do dia 02022022  001 acidente  004 veiculos envolvidos  002 ferido  000 mortos  877 pessoas fiscalizadas  831 veiculos fiscalizados  110 testes de alcoolemia  434 autos de infracao  042 veiculos recolhidos 003 pessoas detidas;0
+'1489563352284250116';08h35   bom dia  no momento nao ha ocorrencias relevantes nas rodovias federais sob circunscricao da prfes  dirijam com seguranca respeitem a sinalizacao e tenham todos uma boa viagem  em caso de acidentes liguem  prf 191  samu 192  cbmes 193  eco 101   0800 7701 101;0
+'1489193621668651008';08h00   bom dia  no momento nao ha ocorrencias relevantes nas rodovias federais sob circunscricao da prfes  dirijam com seguranca respeitem a sinalizacao e tenham todos uma boa viagem  em caso de acidentes liguem  prf 191  samu 192  cbmes 193  eco 101   0800 7701 101;0
+'1489123989452558336';o sono bateu pare e descanse ;0
+'1489586686296301578';10h08  em sabara br 381 saida para vitoria transito com retencao em ambos sentidos devido acidente ocorrido no inicio desta manha   aprox 8 km de retencao em cada sentido 1 hora para deslocar pelo trecho;1
+'1489604593910751233';1119 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489482189247029251';0313 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489374231049777157';2004 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489673005173202944';br 376 contorno sul curitiba acidente proximo ao feijao pe vermelho km 596  congestionamento de 4 quilometros sentido sao paulo 1535 grupobr277 ;1
+'1489312738144784385'; os detalhes fazem a diferenca viu quando usados corretamente os cintos de seguranca reduzem o risco de morte e ferimentos em um acidente nao se esqueca de usar esse item que garante sua seguranca dicasdeseguranca eco050 ecorodovias ;0
+'1489275463612702723'; atencao motoristas  interdicao da faixa 2 e acostamento no km 79 da br 050 sentido norte no municipio de uberlandia mg devido a tombamento   atente se a sinalizacao e boa viagem;1
+'1489550433215520768';abr 277 km 306 na regiao da serra da esperanca o trafego segue intercalado devido a um acidente siga com atencao ;1
+'1489488752141549569';atencao br 277 km 306 na regiao da serra da esperanca o trafego esta intercalado devido a um acidente ;1
+'1489724008706691077';casal fica ferido em acidente na al 405 em rio largo  alagoas maceio noticias ;0
+'1489613907727683592';o blog do caminhoneiro entrou em contato com a scania nesta semana solicitando informaces tecnicas a respeito das alteraces para a montadora as mudancas prejudicam os veiculos e podem ser causa de acidentes ;0
+'1489791871190667265';br290 km 488 em rosario do sulrs rodovia totalmente interditada para atendimento de acidente  ;1
+'1489945283568054274';a faixa da direita e o acostamento permanecem interditados no km 33 da d pedro i sp 065 em igarata transito contudo ja flui normalmente mais cedo houve um acidente que interditou a pista sentido jacarei dois caminhes pegaram fogo mas ninguem se feriu ;1
+'1489825603427655685';balanco do dia 04022022  004 acidentes  007 veiculos envolvidos  003 feridos  001 mortos  436 pessoas fiscalizadas  403 veiculos fiscalizados  171 testes de alcoolemia  295 autos de infracao  026 veiculos recolhidos 003 pessoas detidas;0
+'1489942744818753539';09h40   em viana no km 302 da br 101 pista esta totalmente interditada  para retirada de caminhao que tombou sobre a rodovia interditando uma faixa no sentido sul o acidente ocorreu por volta de 05h30 e o condutor nao se feriu;1
+'1489901617105317890';0700 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489878641567748096';0528 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489772124172599301';2225 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1489788366619127813';militares realizam exercicio na cidade fantasma de pripyat que fica na fronteira com belarus e que foi esvaziada apos o acidente nuclear  g1;0
+'1489769281688465408';apos morte de crianca em riacho doce mpal cobra que equatorial adote medidas para evitar acidentes com rede eletrica  alagoas maceio noticias ;0
+'1489949079954243599';acidente fatal na sc 401  na madrugada deste sabado 5 na altura do km 14750 da sc 401 na capital por volta das 3h o condutor de uma motocicleta se chocou contra a mureta que divide a rodovia e acabou perdendo a vida o fato aconteceu no sentido bairrocentro ;1
+'1489950495296741384';jovem morre em acidente com moto durante retorno na al 220 em arapiraca  alagoas maceio noticias ;0
+'1490298264431861761';acidente em obra do metro provoca desabamento de pista da marginal tiete em sp nao ha vitimas truckbrasil jr1  brasil;0
+'1490802719476441090';atencao atropelamento envolvendo uma moto na av abrasil prox ao numero 7678 sent nortesul   eptcpoa;0
+'1490796263029100545';atencao acidente envolvendo um carro na av dr nilo pecanha prox ao numero 242 sent bc  eptcpoa;0
+'1490776960703746048';atencao acidente entre 3 carros na av princesa isabel prox ao numero 1155   eptc no local  eptcpoa;0
+'1490749610607845380';atencao acidente entre 2 carros na av farrapos prox ao numero 1630 sent bc   agent  eptcpoa;0
+'1490740432564736005';atencao acidente entre carro e moto na r jose pedro boessio prox ao numero 4064 bairro humaita   ag  eptcpoa;0
+'1490734471590473731';atencao acidente entre 2 carros na rotula da av abrasil x av bernardino silveira amorim bairro  eptcpoa;0
+'1490712498328113152';acidente entre 3 carros na av joao pessoa prox ao cruz c a r dr sebastiao leao no senti  eptcpoa;0
+'1490705499641188357';atencao acidente entre onibus e bicicleta na av cavalhada prox ao cruz c a r dr pereira ne  eptcpoa;0
+'1490739101376593929';motorista bebado e preso apos provocar acidente na br 316 em picos pi  via ;0
+'1490456697374232579';batida deixa mortos em grave acidente na lmg 808 em contagem mg  via ;0
+'1490447068741185539';acidente entre carreta e onibus na br 365 mata dois e fere sete em minas gerais  via ;0
+'1490008335973863427';capotamento na ba 233 deixa tres policiais civis mortos e quatro presos feridos  via ;0
+'1490007107810336769';acidente com seis veiculos na br 290 deixa dois mortos em gravatai rs  via ;0
+'1489975011758780421';mp do parana denuncia envolvidos em acidente na br 376 que matou 19 pessoas  via ;0
+'1490787532564484100';a chuva cedeu mas motoristas podem encontrar pista molhada em alguns locais   no corredor dom pedro o transito flui bem em sua maior parte exceto nas proximidades do km 144 da rodovia d pedro i junto ao entroncamento com a rodovia anhanguera   nao ha acidentes reportados ;0
+'1490697168117714945'; chove em campinas nesse final da manha o transito flui bem em todo corredor dom pedro mas motoristas devem se atentar a pista molhada  nao ha acidentes e a concessionaria aguarda melhora das condices climaticas para iniciar obras de melhoria ;0
+'1490651551844687873';transito flui bem no corredor dom pedro chove na regiao de cosmopolis e em outros pontos o tempo e bastante nublado   nao ha acidentes nesta manha concessionaria aguarda melhora das condices climaticas para iniciar obras de melhoria ;0
+'1490309302002798601';motociclista vista sempre calcas com boca estreita para evitar que a roupa se prenda na corrente da moto voce evita queda e acidentes ;0
+'1490549203642327041';balanco do dia 06022022 09   acidentes 11   veiculos envolvidos 07   feridos 01   morto 307 pessoas fiscalizadas 307 veiculos fiscalizados 172 autos de infracao;0
+'1490177086744637443';balanco do dia 05022022  009 acidentes  016 veiculos envolvidos  009 feridos  002 mortos  368 pessoas fiscalizadas  296 veiculos fiscalizados  073 testes de alcoolemia  182 autos de infracao  003 autuaces de alcoolemia 033 veiculos recolhidos;0
+'1490300834680393734';operacao de destombamento de uma carreta acidentada no km 118 da br 470 equipe da prf no local e veiculos da equipe de remocao trabalhando na ocorrenci solicita se atencao ao transitar pelo acidente ;1
+'1490292166316511233';acidente com vitima no km 35 da br282 dirija com atencao e aproxime se do local com velocidade compativel viatura da prf no local veiculos do bombeiros e do samu em apoio ;1
+'1490797002380259337';neste domingo 6 a pmrv intensificou a fiscalizacao de excesso de velocidade na sc 135 e sc 350 mais de 60 veiculos foram flagrados acima dos limites de velocidade  o excesso de velocidade e uma das principais causas de acidentes com leses graves e obitos nas rodovias ;0
+'1490317809074814984'; acidente fatal registrado na noite deste sabado 5 na sc 110 em ituporanga foi uma colisao frontal envolvendo um vwjetta e uma gmipanema o fato aconteceu por volta das 20h na altura do km 271900 da rodovia e o condutor da ipanema acabou perdendo a vida ;1
+'1489986946093010951';acidente fatal registrado na madrugada deste sabado 5 na sc 412 rodovia jorge lacerda em itajai o fato aconteceu por volta das 5h30 na altura do km 8400 da rodovia  foi uma saida de pista seguida de capotamento tres pessoas estavam no veiculo uma acabou perdendo a vida ;1
+'1490810568575492099';prevencao a acidentes de transito nas rodovias mineiras    cprvbpmrv os anjos da guarda dos caminhos de minas    2021 50 anos cuidando da sua seguranca nos caminhos de minas  ;0
+'1490800668604616713';1832  atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1490712514568630282';1242 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1490582555149709313';0405 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1490505968530210818';2301 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1490831595581890560';acidente entre dois onibus no interior da bahia deixa dois mortos confira os principais destaques desta segunda 7 no jornaldarecord  jr24h ;0
+'1490412861843292165';br 376 contorno sul curitiba km 593 acidente capotamento no canteiro central proximo a vonder  sentido campo largo  congestionamento de 1 quilometro na cidade industrial 1648 grupobr277 ;1
+'1490740403863277568';motorista para carro para nao atropelar cachorro e morre apos ser atingida por caminhonete no interior do parana diz samu  g1 g1pr ;0
+'1490803161661071368';o trafego e lento na rodovia helio smidt em direcao ao aeroporto internacional de guarulhos reflexo de acidente que aconteceu mais cedo;0
+'1490790812271226888';atencao rodovia rsc 471 em encruzilhada do sul em meia pista devido a acidente de transito condutor com leses leves local si alizado ;0
+'1490681685255589897';atencao br 277 km 307 na regiao da serra da esperanca a pista esta totalmente interditada devido a um acidente sem previsao de liberacao ;1
+'1489973345781178374';do ponto de vista tecnico o arqueamento da suspensao dos caminhes so traz problemas e acentua o risco de acidentes sem oferecer nenhuma vantagem veja o que a engenharia da volvo fala sobre o assunto ;0
+'1491530457715933185';atencao acidente envolvendo carro e caminhao na av bernardino silveira amorim prox ao numero 1101 ba  eptcpoa;0
+'1491509445578223616';atencao acidente envolvendo carro e lotacao na av julio de castilhos na altura do mercado publico   ag  eptcpoa;0
+'1491491731476414465';atencao acidente envolvendo carro e moto na av pirapo prox ao numero 228 bairro petropolis   eptc  eptcpoa;0
+'1491464811175026688';atencao acidente envolvendo carro e moto na estr cristiano kraemer prox ao numero 61 bairro vila nov  eptcpoa;0
+'1491463719594848264';atencao acidente envolvendo 3 carros na r dr napoleao laureano prox ao numero 259 bairro passo d  eptcpoa;0
+'1491462628333342722';atencao acidente entre 2 carros na av alcides maia x av abrasil sent bc   eptc n  eptcpoa;0
+'1491419140015353856';acidente entre carro e caminhao na av francisco trein prox ao numero 596 no bairro cristo redentor   eptcpoa;0
+'1491414808519856129';acidente entre 2 carros na av dr nilo pecanha prox ao cruz c a av verissimo do amaral em  eptcpoa;0
+'1491423402305155073';homem morre em grave acidente na pr 423 em araucaria  via ;0
+'1491403636731428870';cenario triste mas real cresce o numero de acidentes e mortes nas rodovias federais em 2021  via ;0
+'1491401546898100230';acidentes e mortes nas rodovias federais crescem em 2021 e tem custos de r 12 bilhes  via ;0
+'1491379271704932352';transito ja foi normalizado no anel viario magalhaes teixeira em campinas mais cedo um acidente interditava uma faixa no km 14 sentido d pedro i ;0
+'1491360354592751616'; um acidente interdita a faixa da direita no km 14 do anel viario magalhaes teixeira em campinas concessionaria presta atendimento no local via tem lentidao de 2km na pista sentido d pedro i;0
+'1491161915531628544';prf resgata menino de 14 anos desorientado na dutra  garoto estava em situacao de vulnerabilidade e com grande risco de atropelamento em meio ao trafego intenso de veiculos  saiba mais em   emergencia ou denuncia   ligue 191 ;0
+'1491261023072157696';009 acidentes  018 veiculos envolvidos  022 feridos  000 mortos  666 pessoas fiscalizadas  653 veiculos fiscalizados  340 testes de alcoolemia  635 autos de infracao  048 veiculos recolhidos 000 pessoas detidas;0
+'1490907631191728128';balanco do dia 07022022 08   acidentes 15   veiculos envolvidos 10   feridos 01   morto 570 pessoas fiscalizadas 507 veiculos fiscalizados 520 autos de infracao;0
+'1491448433957535744';13h25   acidente no km 4878 da br 381 em betim sentido sao paulo interdita faixas central e esquerda   ;1
+'1491319359137980418';4h50  transito segue lento no km 451 da br381 santa luzia devido a rompimento de drenagaem pluvial da rodovia acidente acabou gerando maior lentidao mas ja resolvido ;1
+'1491502161418588161';1700 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491426677947207682';1200 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491351165405118464';0700 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491320974226067457';0500 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491245477345603588';0000 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491049175156498437';carro capota apos acidente e via fica interditada em joao pessoa g1 g1paraiba    ;0
+'1491407233108025345';o indice de acidentes nas rodovias federais brasileiras aumentou 16 em 2021 em comparacao com 2020  ;0
+'1491532177531670536';a rodovia carvalho pinto tem trafego lento do km 77 ao 79 no sentido do interior devido bloqueio de faixa para remocao de carga do acidente que aconteceu hoje de manha;0
+'1491483295523262466';ao respeitar os limites de velocidade voce evita acidentes e multas que vao de r 13016 a r 80041 e podem acarretar na suspensao da cnh na br 050 esse limite e de 100 kmh ao viajar mantenha sempre uma postura preventiva eco050 ;0
+'1491096490026045443';nas plataformas das estaces de trem e de metro aguarde pelas composices atras da faixa amarela e ela que estabelece o limite da sua seguranca evite acidentes ;0
+'1492112907093647361';atencao br116 km 521 itatim   trafego fluindo com desvio de pista em ambos os sentidos devido acidente mantenha distancia segura e boa viagem;1
+'1492074838567133209';br324 km 622 salvador   local onde houve acidente rodovia totalmente liberada trafego com lentidao sentido capital devido a retencao gerada mantenha distancia segura e boa viagem;1
+'1492071764360405014';atencao br324 km 622 salvador   trafego com lentidao sentido capital devido acidentefaixa da direita interditada mantenha distancia segura e boa viagem;1
+'1491751116308107266';atencao br324 km 621 salvador rodovia totalmente liberada no local onde houve o acidente trafego segue com lentidao devido a retencao gerada mantenha distancia segura e boa viagem;1
+'1492219095680380941';atencao acidente envolvendo 2 carros na r silva jardim prox ao cruz c a av plinio brasil m  eptcpoa;0
+'1492218000467849217';atencao acidente entre duas motos na av abrasil prox ao numero 6352 sent bc   ag  eptcpoa;0
+'1492203916984913920';atencao acidente evolvendo carro e moto na r sargento silvio delmar hollenbach prox ao numero 698 ba  eptcpoa;0
+'1492202292434530308';atencao acidente envolvendo carro e moto na av baltazar de oliveira garcia prox ao numero 4746 bairr  eptcpoa;0
+'1492199571388203012';atencao acidente envolvendo 2 carros na av farrapos cruz c a av sertorio sent bairrocent  eptcpoa;0
+'1492189847129247748';atencao acidente envolvendo 2 carros na r dr campos velho prox ao numero 840 bairro cristal   eptcpoa;0
+'1492180101802254338';atencao acidente envolvendo carro e lotacao na av bento goncalves cruz c av antonio de carvalho   eptcpoa;0
+'1492257139255123972';evite queimadas nao jogue lixo na rodovia a fumaca pode prejudicar a visibilidade dos motoristas e os animais podem ser afugentados para a pista causando serios riscos de acidentes ;0
+'1492241113343737860';transito intenso no km 144 da rodovia d pedro i proximo ao entroncamento com a anhanguera em campinas o km 7 do anel viario magalhaes teixeira sentido bandeirantes em campinas tambem apresenta grande fluxo de veiculos nao ha acidentes reportados ;0
+'1492152970653454343'; transito tranquilo por todo corredor dom pedro as obras seguem normalmente sem reflexos no trafego nao ha acidentes reportados ;0
+'1491830314070642691';concessionaria concluiu reparo no pavimento do anel viario em campinas e transito volta a fluir normalmente   tarde segue ensolarada e sem acidentes ;0
+'1491783097028780032';o transito segue intenso no km 7 do anel viario magalhaes teixeira sentido bandeirantes em campinas devido a obras no pavimento a faixa da direita foi interditada e a lentidao segue ate o km 5  nao ha acidentes reportados ;0
+'1491736880295170049'; dia nasceu ensolarado por todo o corredor d pedro   o transito na manha e mais denso em alguns pontos da rodovia d pedro i o km 114 da professor zeferino vaz em campinas proximo ao acesso de barao geraldo tem trafego lento  nao ha acidentes reportados ;0
+'1491991579451666439';balanco do dia 10022022 03   acidentes 04   veiculos envolvidos 03   feridos 00   mortos 541 pessoas fiscalizadas 474 veiculos fiscalizados 429 autos de infracao;0
+'1491640705336418304';balanco do dia 09022022 008 acidentes  015 veiculos envolvidos  006 feridos  002 mortos  335 pessoas fiscalizadas  304 veiculos fiscalizados  093 testes de alcoolemia  292 autos de infracao  026 veiculos recolhidos 000 pessoas detidas;0
+'1491589968526905346';22h40   em conceicao da barra no km 29 da br 101 pista esta parcialmente interditada devido tombamento de carreta pedimos atencao aos condutores que trafegam pela localidade;1
+'1492173619790757889';13h26  no km 363 da br 381 em joao monlevade pista totalmente fechada para limpeza esta sendo realizado transbordo da carga para destombamento do veiculo acidentado ;1
+'1492095110061953025';8h11   em joao monlevade no km 363 da br 381 no corte de pedra interdicao parcial da via colisao frontal entre dois veiculos de carga com ferido muito oleo na pista trecho com retencao de veiculos sem previsao de liberacao total;1
+'1492272234093813765';2000  atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1492214636795641857';1611 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1492118118524723206';0947 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491940048375205893';2200 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491864547413696516';1700 atencao em caso de acidente ou emergencia ligue 0800 071 3233 telefone atendimento 24hs;0
+'1491718069420531715';br 277 no km 102 proximo ao medidor de velocidade no passauna  tombamento de carreta no acostamento sentido curitiba congestionamento em campo largo proximo ao guarani duas faixas livres 0716 grupobr277 ;1
+'1492267965529608195';video duas pessoas sao atropeladas por moto em frente a escola de maringa  g1 g1pr ;0
+'1492190082257887235';video homem e atropelado ao pedir dinheiro em semaforo de maringa  g1 g1pr ;0
+'1492159461968035842';menino de quatro anos morre apos ser atropelado por onibus em frente a creche que estudava em diamante do sul diz policia  g1 g1pr ;0
+'1492221017967763456';o trafego e lento na rodovia ayrton senna do km 18 ao km 20 para quem vai em direcao ao interior devido acidente no sentido de sao paulo o trafego continua normal;0
+'1491849456886681611';  nao e indicado que o motorista pegue a rodovia se estiver cansado ou com sonolencia sinais que aumentam o risco de acidentes durante o trajeto uma vez que a pessoa pode dormir e consequentemente perder o controle sobre o volante dicasdeseguranca eco050 ecorodovias ;0
+'1492288706589384705';retificando policiais militares da base operacional de tainhas em atendimento de acidente de transito com leses corporais envolvendo 03 veiculos na rsc 453 km 242  local com sinal telefonico prejudicado;0
+'1492278363993608201'; atencao na rota do sol  acidente de transito na ers 486 envolvendo 3 veiculos com grande congestionamento  comando rodoviario da brigada militar no local;0
+'1492215943245692928';prf aponta velocidade de onibus de devinho novaes no momento do acidente que deixou um morto e varios feridos  alagoas maceio noticias ;0
+'1492215885733367808';idosa sofre acidente em onibus e lesiona cabeca  alagoas maceio noticias ;0
+'1492166548647198723';respeite os limites de velocidade indicados nas placas ao longo da rodovia assim a viagem segue segura e sem acidentes confira a dica do diretor de operaces da regional sul    cesar sass para uma viagemsegura ;0
